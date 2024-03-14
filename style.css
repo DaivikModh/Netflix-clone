@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+
+body{
+    background-color: #232323;
+}
+
+.main-img{
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 600px;
+    display: flex;
+    z-index: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("header-image.png")
+}
+
+.logo{
+    height: 60px;
+    width: 220px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 5rem;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+
+.head-lang{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 700px;
+    display: flex;
+    color: white;
+}
+
+.head-lang select{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0.25px solid grey;
+    color: #f3f3f3;
+    background-color: #0f0f0f;
+}
+
+.head-lang select:hover{
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.sign{
+    font-size: large;
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.email{
+    width: 100%;
+    text-align: center;
+    color: #f3f3f3;
+    z-index: 2;
+}
+
+.head-email1{
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.head-email2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.email-box{
+    color: #f3f3f3;
+    border: none;
+    border: 0.5px solid grey;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    padding-left: 10px;
+    width: 250px;
+}
+
+.email-button{
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+/* panel1 */
+
+.panel1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.panel1 h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.panel1 p{
+    margin-left: 150px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    width: 40%;
+}
+
+.panel1 img{
+    margin-right: 150px;
+}
+
+/* panel2 */
+.panel2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.panel2 h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.panel2 p{
+    margin-right: 150px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    width: 70%;
+}
+
+.panel2 img{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+/* panel1 */
+
+.panel3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.panel3 h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.panel3 p{
+    margin-left: 150px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    width: 40%;
+}
+
+.panel3 img{
+    margin-right: 150px;
+}
+
+
+/* panel4 */
+.panel4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.panel4 h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.panel4 p{
+    margin-right: 150px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    width: 70%;
+}
+
+.panel4 img{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+/* footer */
+
+.foot-panel{
+    color: #b3976d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    color: white;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.foot-list{
+    color: #b3b3a8;
+    margin-left: 10px;
+}
+
+.foot-list li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
